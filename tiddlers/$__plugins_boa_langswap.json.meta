@@ -1,0 +1,10 @@
+author: oleghbond
+core-version: 5.1.21
+dependents: Shiraz Utility
+description: BOA - Bilingual pages swapper
+list: readme Component-description
+plugin-type: plugin
+revision: 0
+title: $:/plugins/boa/langswap
+type: application/json
+version: 0.0.6

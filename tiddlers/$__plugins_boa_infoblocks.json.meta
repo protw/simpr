@@ -1,0 +1,9 @@
+author: oleghbond
+core-version: 5.1.21
+dependents: Shiraz
+description: BOA - Infoblocks
+list: readme
+plugin-type: plugin
+title: $:/plugins/boa/infoblocks
+type: application/json
+version: 0.0.2

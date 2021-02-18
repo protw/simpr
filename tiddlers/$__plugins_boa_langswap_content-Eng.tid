@@ -1,0 +1,9 @@
+caption: {{$:/plugins/boa/langswap/img/Eng.svg}}
+created: 20210218095948770
+icon: $:/favicon.ico
+list-before: $:/core/ui/SideBar/Open
+modified: 20210218095951248
+tags: 
+title: $:/plugins/boa/langswap/content-Eng
+
+{{Content}}

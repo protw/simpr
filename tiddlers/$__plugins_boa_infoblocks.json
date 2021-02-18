@@ -1,0 +1,52 @@
+{
+    "tiddlers": {
+        "$:/plugins/boa/infoblocks/macro": {
+            "created": "20190925174625266",
+            "text": "\\define alert-primary(text)\n<<alert primary src:\"<div style='float:left;width:7%;'>[img [$:/plugins/boa/infoblocks/img/list-alt.svg]]</div><div style='float:left;width:90%;'>$text$</div><div style='clear:both;'/>\" class:\"leftbar border-primary\">>\n\\end\n\\define alert-danger(text)\n<<alert danger src:\"<div style='float:left;width:7%;'>[img [$:/plugins/boa/infoblocks/img/hand-paper.svg]]</div><div style='float:left;width:90%;'>$text$</div><div style='clear:both;'/>\" class:\"leftbar border-danger\">>\n\\end\n\\define alert-warning(text)\n<<alert warning src:\"<div style='float:left;width:7%;'>[img [$:/plugins/boa/infoblocks/img/exclamation-triangle.svg]]</div><div style='float:left;width:90%;'>$text$</div><div style='clear:both;'/>\" class:\"leftbar border-warning\">>\n\\end\n\\define alert-info(text)\n<<alert info src:\"<div style='float:left;width:7%;'>[img [$:/plugins/boa/infoblocks/img/info-circle.svg]]</div><div style='float:left;width:90%;'>$text$</div><div style='clear:both;'/>\" class:\"leftbar border-info\">>\n\\end\n\\define alert-success(text)\n<<alert success src:\"<div style='float:left;width:7%;'>[img[$:/plugins/boa/infoblocks/img/thumb-up.svg]]</div><div style='float:left;width:90%;'>$text$</div><div style='clear:both;'/>\" class:\"leftbar border-success\">>\n\\end\n",
+            "title": "$:/plugins/boa/infoblocks/macro",
+            "tags": "$:/tags/Macro",
+            "modified": "20200321210303414"
+        },
+        "$:/plugins/boa/infoblocks/readme": {
+            "created": "20200321205704983",
+            "text": "!! ''Інфоблоки з іконками''\n\nНа базі плагіна [[Shiraz|$:/boa/custom-installed/shiraz]] побудовані більш наочні інфоблоки з іконками і простішим макро-викликом. Інфоблоки розташовані у [[$:/plugins/boa/infoblocks]].\n\nВиклик макросів інфоблоків максимально спрощений і виглядає таким чином:\n\n```\n<<alert-primary \"вікі-текст\">>\n<<alert-danger \"вікі-текст\">>\n<<alert-warning \"вікі-текст\">>\n<<alert-info \"вікі-текст\">>\n<<alert-success \"вікі-текст\">>\n```\n\n!!! PRIMARY\n<<alert-primary \"''Lorem Ipsum'' - це текст-'риба', що використовується в друкарстві та дизайні. //Lorem Ipsum// є, фактично, стандартною 'рибою' аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів.\">>\n\n!!! DANGER\n<<alert-danger \"'Риба' не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною.\">>\n\n!!! WARNING\n<<alert-warning \"Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів `Letraset`, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт\">>\n\n!!! INFO\n<<alert-info \"На відміну від поширеної думки Lorem Ipsum не є випадковим набором літер. Він походить з уривку класичної латинської літератури 45 року до н.е., тобто має більш як 2000-річну історію.\">>\n\n!!! SUCCESS\n<<alert-success \"Річард Макклінток, професор латини з коледжу Хемпдін-Сидні, що у Вірджінії, вивчав одне з найменш зрозумілих латинських слів - consectetur - з уривку Lorem Ipsum, і у пошуку цього слова в класичній літературі знайшов безсумнівне джерело.\">>",
+            "title": "$:/plugins/boa/infoblocks/readme",
+            "modified": "20200321210113962"
+        },
+        "$:/plugins/boa/infoblocks/img/exclamation-triangle.svg": {
+            "created": "20190925111201096",
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 576 512\" fill=\"#ffc107\"><path d=\"M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z\"/></svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/boa/infoblocks/img/exclamation-triangle.svg",
+            "modified": "20200321205627987"
+        },
+        "$:/plugins/boa/infoblocks/img/hand-paper.svg": {
+            "created": "20190925172021781",
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 448 512\" fill=\"#dc3545\"><path d=\"M408.781 128.007C386.356 127.578 368 146.36 368 168.79V256h-8V79.79c0-22.43-18.356-41.212-40.781-40.783C297.488 39.423 280 57.169 280 79v177h-8V40.79C272 18.36 253.644-.422 231.219.007 209.488.423 192 18.169 192 40v216h-8V80.79c0-22.43-18.356-41.212-40.781-40.783C121.488 40.423 104 58.169 104 80v235.992l-31.648-43.519c-12.993-17.866-38.009-21.817-55.877-8.823-17.865 12.994-21.815 38.01-8.822 55.877l125.601 172.705A48 48 0 0 0 172.073 512h197.59c22.274 0 41.622-15.324 46.724-37.006l26.508-112.66a192.011 192.011 0 0 0 5.104-43.975V168c.001-21.831-17.487-39.577-39.218-39.993z\"/></svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/boa/infoblocks/img/hand-paper.svg",
+            "modified": "20200321205619076"
+        },
+        "$:/plugins/boa/infoblocks/img/info-circle.svg": {
+            "created": "20190925172555952",
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 512 512\" fill=\"#17a2b8\"><path d=\"M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z\"/></svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/boa/infoblocks/img/info-circle.svg",
+            "modified": "20200321205609619"
+        },
+        "$:/plugins/boa/infoblocks/img/list-alt.svg": {
+            "created": "20190925172619308",
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 512 512\" fill=\"#007bff\"><path d=\"M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z\"/></svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/boa/infoblocks/img/list-alt.svg",
+            "modified": "20200321205555234"
+        },
+        "$:/plugins/boa/infoblocks/img/thumb-up.svg": {
+            "created": "20190925171459106",
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 512 512\" fill=\"#28a745\"><path d=\"M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z\"/></svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/boa/infoblocks/img/thumb-up.svg",
+            "modified": "20200321205545221"
+        }
+    }
+}
