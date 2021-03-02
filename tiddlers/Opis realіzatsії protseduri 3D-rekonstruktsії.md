@@ -1,0 +1,2 @@
+* [Концепт](https://github.com/protw/treemap-m/blob/master/docs/treemap_concept.md#%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82)
+* [Структура і загальний опис коду](https://github.com/protw/treemap-m/blob/master/docs/code_descr.md)

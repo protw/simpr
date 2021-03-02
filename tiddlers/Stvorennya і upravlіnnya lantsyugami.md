@@ -1,0 +1,1 @@
+* [Структура таблиці ланцюгів](https://github.com/protw/treemap-m/blob/master/docs/chains.md)
